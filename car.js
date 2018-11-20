@@ -9,6 +9,8 @@ var temps;
 
 document.getElementById("valider").addEventListener("click", function() {
 
+    inputseconde = document.getElementById("input2").value;
+    inputminute = document.getElementById("input1").value;
 
 
     clearTimeout();
@@ -38,9 +40,9 @@ var countDown = function() {
 
     if (inputseconde==0 && inputminute==0){
 
-        alert('fini').location.reload();
+        alert('fini');
         stopCountDown();
-
+document.location.reload();
 
     }
 
