@@ -1,0 +1,24 @@
+body{
+    font-family: "Arial Black";
+    text-align: center;
+    border: solid black;
+    border-style: double;
+
+
+
+}
+header{
+    background-color: purple;
+    color: white;
+
+padding-bottom: 10%;
+font-size: 20px;
+    text-align: revert;
+
+}
+footer{
+
+    padding-top: 10%;
+    background-color: purple;
+
+}
